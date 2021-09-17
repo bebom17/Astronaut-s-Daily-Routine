@@ -101,8 +101,8 @@ function draw() {
   }*/
 
   if(keyDown("m")){
-    astronaut.addAnimation("moving", move);
-    astronaut.changeAnimation("moving");
+    astronaut.addAnimation("Moving", move);
+    astronaut.changeAnimation("Moving");
     astronaut.velocityX = 1;
     astronaut.velocityY = 1;
   }
